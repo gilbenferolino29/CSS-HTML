@@ -195,7 +195,7 @@ strong{
   color: #21a32c;
 }
 
-div {
+/* div {
   max-width: 1000px;
 
   padding-left: 24px;
@@ -206,7 +206,7 @@ div {
   margin-right: auto;
 
   text-align: center;
-}
+} */
 
 h2 {
   margin-bottom: 42px;
@@ -398,5 +398,9 @@ section {
   transition-duration: 200ms;
 }
 
-
+.intro-section .highlight-name {
+  animation-name: change-colors;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
 
